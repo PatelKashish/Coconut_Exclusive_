@@ -1,0 +1,19 @@
+/* Navbar.css */
+/* Oval styling */
+.oval {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show oval on hover */
+a:hover .oval {
+    opacity: 1;
+}
